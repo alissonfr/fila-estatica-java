@@ -2,7 +2,7 @@
 
 Interface: definindo o conjunto de operações (métodos) que uma fila deve ter para que seja considerada uma fila.
 
-Todas as classes que implementarem essa interface vão terque obrigatoriamente implementar esses métodos:
+Todas as classes que implementarem essa interface vão ter que obrigatoriamente implementar esses métodos:
 
 ```java
 public interface Enfileiravel {
