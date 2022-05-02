@@ -37,7 +37,7 @@ public class FilaEstatica implements Enfileiravel {
     }
     
     // Construtor que recebe uma variável inteira "tamanho" e passa esse tamanho para criar o array
-       // Também é define o inicio e o fim da fila como -1 (que é 1º posição inválida do array, pois o array inicia no 0)
+       // Também define o inicio e o fim da fila como -1 (que é 1º posição inválida do array, pois o array inicia no 0)
     public FilaEstatica(int tamanho) {
         inicioFila = -1;
         finalFila = -1;
