@@ -45,7 +45,7 @@ public class FilaEstatica implements Enfileiravel {
     }
 
     // Metódo enfileirar: primeiro verifica se a fila não está cheia.
-        // Se não estiver cheia, incrementa o ponteiro final para uma posição válida, e passa o elemento inserido para o final da fila
+        // Se não estiver cheia, incrementa o ponteiro final em + 1 e passa o elemento inserido para o final da fila
         // Se estiver cheia, retorna uma mensagem de erro
     public void enfileirar(Object elemento){
         if (!estaCheia()) {
