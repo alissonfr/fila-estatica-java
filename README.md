@@ -30,11 +30,6 @@ public class FilaEstatica implements Enfileiravel {
     private int inicioFila, finalFila;
        // os dois ponteiros acima vão guardar as posições no array "dados" abaixo
     private Object[] dados;
-
-    // Construtor que definine o tamanho padrão da fila
-    public FilaEstatica() {
-        this(4);
-    }
     
     // Construtor que recebe uma variável inteira "tamanho" e passa esse tamanho para criar o array
        // Também define o inicio e o fim da fila como -1 (que é 1º posição inválida do array, pois o array inicia no 0)
@@ -114,25 +109,24 @@ public class FilaEstatica implements Enfileiravel {
 public class Main {
     public static void main(String[] args) {
         //criando objeto fila do tipo FilaEstatica
-        // podemos passar o tamanho da fila no FilaEstatica(tamanho), como deixamos vazio, vai ficar como 4, o valor padrão.
-        Enfileiravel fila = new FilaEstatica();
+        // passando o tamanho da fila no FilaEstatica
+        Enfileiravel fila = new FilaEstatica(4);
 
         System.out.println("===================");
         System.out.println("  Fila Estática  ");
         System.out.println("===================");
 
         fila.enfileirar("Elemento 1");
-        System.out.println(fila.verificar());
         fila.enfileirar("Elemento 2");
-        System.out.println(fila.verificar());
-        fila.desenfileirar();
-        System.out.println(fila.verificar());
         fila.enfileirar("Elemento 3");
         fila.enfileirar("Elemento 4");
+        System.out.println(fila.imprimir());
         fila.desenfileirar();
         System.out.println(fila.verificar());
-        System.out.println(fila.imprimir());
+        fila.desenfileirar();
+        System.out.println(fila.verificar());
     }
 }
+
 
 ```
