@@ -87,7 +87,7 @@ public class FilaEstatica implements Enfileiravel {
         return (finalFila == dados.length-1);
     }
 
-    // Fila vazia: quando os ponteiros de inicio e fim apontam para o mesmo valor (não necessáriamente -1), pois, significa que foram feitos a mesma quantidade de enfileiramentos e desenfileiramentos
+    // Fila vazia: quando os ponteiros de inicio e fim apontam para o mesmo valor (não necessariamente -1), pois, significa que foram feitos a mesma quantidade de enfileiramentos e desenfileiramentos
     public boolean estaVazia(){
         return (inicioFila == finalFila);
     }
