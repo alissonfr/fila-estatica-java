@@ -1,3 +1,9 @@
+# Fila Estática em Java
+
+Atividade proposta na matéria Estruturas de Dados. Estrutura Fila Estática explicada linha por linha.
+
+#
+
 # Interface
 
 Interface: definindo o conjunto de operações (métodos) que uma fila deve ter para que seja considerada uma fila.
